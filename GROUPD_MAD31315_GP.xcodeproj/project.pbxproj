@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B1797C62385EDC40008764C /* catPic.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B1797C42385EDC40008764C /* catPic.png */; };
+		9B1797C72385EDC40008764C /* cat.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9B1797C52385EDC40008764C /* cat.mp4 */; };
 		9B647DD52385C477004BD39E /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B647DD42385C477004BD39E /* thirdViewController.swift */; };
 		DE3ED32E1E39DD33007601CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3ED32D1E39DD33007601CB /* AppDelegate.swift */; };
 		DE3ED3301E39DD33007601CB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3ED32F1E39DD33007601CB /* FirstViewController.swift */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B1797C42385EDC40008764C /* catPic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = catPic.png; sourceTree = SOURCE_ROOT; };
+		9B1797C52385EDC40008764C /* cat.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cat.mp4; sourceTree = SOURCE_ROOT; };
 		9B647DD42385C477004BD39E /* thirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdViewController.swift; sourceTree = "<group>"; };
 		DE3ED32A1E39DD33007601CB /* GROUPD_MAD31315_GP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GROUPD_MAD31315_GP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE3ED32D1E39DD33007601CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +81,8 @@
 				DE3ED3311E39DD33007601CB /* SecondViewController.swift */,
 				DE3ED3331E39DD33007601CB /* Main.storyboard */,
 				9B647DD42385C477004BD39E /* thirdViewController.swift */,
+				9B1797C52385EDC40008764C /* cat.mp4 */,
+				9B1797C42385EDC40008764C /* catPic.png */,
 				DE3ED3361E39DD33007601CB /* Assets.xcassets */,
 				EB1808422384D4EC0029BA47 /* musiclogo.jpg */,
 				DE3ED3381E39DD33007601CB /* LaunchScreen.storyboard */,
@@ -167,7 +173,9 @@
 				DE3ED35C1E39E567007601CB /* Mighty Fine.mp3 in Resources */,
 				EB1808432384D4EC0029BA47 /* musiclogo.jpg in Resources */,
 				DE3ED35B1E39E567007601CB /* In Case You Forgot.mp3 in Resources */,
+				9B1797C72385EDC40008764C /* cat.mp4 in Resources */,
 				DE3ED3591E39E567007601CB /* Find My Way Home.mp3 in Resources */,
+				9B1797C62385EDC40008764C /* catPic.png in Resources */,
 				DE3ED35A1E39E567007601CB /* Fingers.mp3 in Resources */,
 				DE3ED3371E39DD33007601CB /* Assets.xcassets in Resources */,
 				DE3ED3351E39DD33007601CB /* Main.storyboard in Resources */,

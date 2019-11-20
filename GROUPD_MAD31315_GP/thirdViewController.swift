@@ -1,3 +1,4 @@
+
 //
 //  thirdViewController.swift
 //  GROUPD_MAD31315_GP
@@ -7,5 +8,22 @@
 //
 
 import Foundation
+import UIKit
+import AVKit
+class ThirdViewController: UIViewController{
+    var PlayerViewController = AVPlayerViewController()
+    var playerview = AVPlayer()
+  
+        
+    @IBAction func VideoButtonPressed(_ sender: UIButton) {
+    var fileURL = NSURL(fileURLWithPath:"/Users/macstudent/Documents/GroupD_MAD3115_GP/cat.mp4")
+        playerview = AVPlayer(url: fileURL as URL)
 
-// This is a test again
+    PlayerViewController.player = playerview
+
+        self.present(PlayerViewController, animated: true){
+
+        self.PlayerViewController.player?.play()
+    }
+}
+}

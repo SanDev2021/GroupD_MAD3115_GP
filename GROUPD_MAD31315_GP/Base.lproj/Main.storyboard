@@ -53,7 +53,14 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Serene Music PlayList" largeTitleDisplayMode="always" id="3X6-0o-bWc">
-                        <barButtonItem key="rightBarButtonItem" title="Player" id="M6q-1L-mB4">
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="video.fill" catalog="system" id="tIB-pb-Gt4">
+                            <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <segue destination="0Gg-xi-IAt" kind="show" id="4XR-bQ-pI6"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Player" image="airplayaudio" catalog="system" id="M6q-1L-mB4">
+                            <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
                                 <segue destination="8rJ-Kc-sve" kind="show" id="1gS-Em-6k3"/>
                             </connections>
@@ -202,12 +209,52 @@
             </objects>
             <point key="canvasLocation" x="914" y="-325"/>
         </scene>
+        <!--Third View Controller-->
+        <scene sceneID="Ynl-sv-Bjj">
+            <objects>
+                <viewController id="0Gg-xi-IAt" customClass="ThirdViewController" customModule="GROUPD_MAD31315_GP" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="48K-NX-pOi"/>
+                        <viewControllerLayoutGuide type="bottom" id="F6L-YI-tDz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YBu-go-bVU">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3EL-Rx-rhG">
+                                <rect key="frame" x="86" y="549" width="242" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <state key="normal" title="Press For Video">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="VideoButtonPressed:" destination="0Gg-xi-IAt" eventType="touchUpInside" id="Wgp-Oc-0HS"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="catPic.png" translatesAutoresizingMaskIntoConstraints="NO" id="MPn-Ws-7Eu">
+                                <rect key="frame" x="50" y="150" width="315" height="391"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="fg3-JT-xgZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="irn-1h-yyc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1234.7826086956522" y="359.59821428571428"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="airplayaudio" catalog="system" width="64" height="60"/>
+        <image name="catPic.png" width="1178" height="663"/>
         <image name="musiclogo.jpg" width="368.6400146484375" height="276.48001098632812"/>
         <image name="next" width="256" height="256"/>
         <image name="pause" width="512" height="512"/>
         <image name="playbutton1" width="512" height="512"/>
         <image name="previous1" width="256" height="256"/>
+        <image name="video.fill" catalog="system" width="64" height="40"/>
     </resources>
 </document>
