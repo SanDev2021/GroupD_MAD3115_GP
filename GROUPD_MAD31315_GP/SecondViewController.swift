@@ -19,7 +19,7 @@ class SecondViewController: UIViewController {
         {
             audioPlayer.play()
         }
-    } //test
+    } 
     
     @IBAction func pause(_ sender: Any)
     {
