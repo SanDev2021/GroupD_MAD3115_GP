@@ -11,7 +11,7 @@ import AVFoundation
 var audioPlayer = AVAudioPlayer()
 var songs:[String] = []
 var thisSong = 0
-var audioStuffed = false
+var audioStuffed = false //
 
 class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
         
@@ -45,7 +45,7 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
         }
     }
     
-    override func viewDidLoad()
+override func viewDidLoad()
     {
         super.viewDidLoad()
         gettingSongNames()
