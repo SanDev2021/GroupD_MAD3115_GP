@@ -12,7 +12,7 @@ class SecondViewController: UIViewController {
     
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var myImageView: UIImageView!
-    
+    // function for play button
     @IBAction func play(_ sender: Any)
     {
         if audioStuffed == true && audioPlayer.isPlaying == false
@@ -20,7 +20,7 @@ class SecondViewController: UIViewController {
             audioPlayer.play()
         }
     } //test
-    
+    // function for pause button
     @IBAction func pause(_ sender: Any)
     {
         if audioStuffed == true && audioPlayer.isPlaying
