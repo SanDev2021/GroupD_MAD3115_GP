@@ -27,7 +27,7 @@ class SecondViewController: UIViewController {
             {
                 audioPlayer.pause()
             }    }
-    // function for previous button
+   // function for previous button
     @IBAction func prev(_ sender: Any)
     {
         if thisSong != 0 && audioStuffed == true
@@ -40,8 +40,7 @@ class SecondViewController: UIViewController {
         {
             
         }
-    }
-    // function for next button
+    }    // function for next button
     @IBAction func next(_ sender: Any)
     {
         if thisSong < songs.count-1 && audioStuffed == true
