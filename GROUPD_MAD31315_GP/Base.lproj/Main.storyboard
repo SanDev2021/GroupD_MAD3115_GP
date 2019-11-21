@@ -98,17 +98,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7HO-5Y-j22">
-                                <rect key="frame" x="69" y="479" width="120" height="83"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <state key="normal" backgroundImage="playbutton1">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="play:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="ifG-5n-wPs"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U8L-6K-76l">
                                 <rect key="frame" x="233" y="481" width="120" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -253,7 +242,6 @@
         <image name="musiclogo.jpg" width="368.6400146484375" height="276.48001098632812"/>
         <image name="next" width="256" height="256"/>
         <image name="pause" width="512" height="512"/>
-        <image name="playbutton1" width="512" height="512"/>
         <image name="previous1" width="256" height="256"/>
         <image name="video.fill" catalog="system" width="64" height="40"/>
     </resources>
