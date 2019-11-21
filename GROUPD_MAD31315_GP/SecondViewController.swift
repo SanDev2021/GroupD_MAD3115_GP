@@ -19,15 +19,14 @@ class SecondViewController: UIViewController {
         {
             audioPlayer.play()
         }
-    } //test
-    // function for pause button
-    @IBAction func pause(_ sender: Any)
-    {
-        if audioStuffed == true && audioPlayer.isPlaying
-        {
-            audioPlayer.pause()
-        }
     }
+    // function for pause button
+        @IBAction func pause(_ sender: Any)
+        {
+            if audioStuffed == true && audioPlayer.isPlaying
+            {
+                audioPlayer.pause()
+            }    }
     // function for previous button
     @IBAction func prev(_ sender: Any)
     {
