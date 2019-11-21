@@ -109,15 +109,15 @@
                                     <action selector="play:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="ifG-5n-wPs"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6wm-Qe-9iP">
-                                <rect key="frame" x="76" y="573" width="113" height="68"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U8L-6K-76l">
+                                <rect key="frame" x="233" y="481" width="120" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <state key="normal" title="PREV" backgroundImage="previous1">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" backgroundImage="pause">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="prev:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="TTg-Pg-fCD"/>
+                                    <action selector="pause:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="XaL-ja-hc1"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="-" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jx3-na-aS8">
@@ -241,8 +241,8 @@
         <image name="catPic.png" width="1178" height="663"/>
         <image name="musiclogo.jpg" width="368.6400146484375" height="276.48001098632812"/>
         <image name="next" width="256" height="256"/>
+        <image name="pause" width="512" height="512"/>
         <image name="playbutton1" width="512" height="512"/>
-        <image name="previous1" width="256" height="256"/>
         <image name="video.fill" catalog="system" width="64" height="40"/>
     </resources>
 </document>
