@@ -56,7 +56,8 @@ class SecondViewController: UIViewController {
             
         }
     }
-    // function for slider
+
+// function for slider
     @IBAction func slider(_ sender: UISlider)
     {
         if audioStuffed == true
@@ -90,4 +91,3 @@ class SecondViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 }
-
