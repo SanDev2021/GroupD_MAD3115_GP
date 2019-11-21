@@ -40,7 +40,9 @@ class SecondViewController: UIViewController {
         {
             
         }
-    }    // function for next button
+    }
+    
+// function for next button
     @IBAction func next(_ sender: Any)
     {
         if thisSong < songs.count-1 && audioStuffed == true
@@ -54,7 +56,7 @@ class SecondViewController: UIViewController {
             
         }
     }
-    // function for slider 
+    // function for slider
     @IBAction func slider(_ sender: UISlider)
     {
         if audioStuffed == true
