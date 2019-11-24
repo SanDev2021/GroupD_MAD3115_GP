@@ -48,6 +48,7 @@ override func viewDidLoad()
     {
         super.viewDidLoad()
         gettingSongNames()
+        
     }
     override func didReceiveMemoryWarning()
     {
