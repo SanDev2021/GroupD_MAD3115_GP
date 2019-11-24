@@ -62,6 +62,7 @@
 		EBA9650B238B06DE00312F09 /* beyond-here-from-beyond-here-2018.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "beyond-here-from-beyond-here-2018.mp3"; path = "../../../final project/beyond-here-from-beyond-here-2018.mp3"; sourceTree = "<group>"; };
 		EBA9650C238B06DE00312F09 /* into-silence.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "into-silence.mp3"; path = "../../../final project/into-silence.mp3"; sourceTree = "<group>"; };
 		EBA9650D238B06DE00312F09 /* a-memory-remains-acoustic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "a-memory-remains-acoustic.mp3"; path = "../../../final project/a-memory-remains-acoustic.mp3"; sourceTree = "<group>"; };
+		EBA9651F238B0ABD00312F09 /* Always - Peder B.Helland_1080p_ybmate.com.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Always - Peder B.Helland_1080p_ybmate.com.mp4"; path = "../../final project/Always - Peder B.Helland_1080p_ybmate.com.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +101,7 @@
 				DE3ED3331E39DD33007601CB /* Main.storyboard */,
 				9B647DD42385C477004BD39E /* thirdViewController.swift */,
 				DE3ED3361E39DD33007601CB /* Assets.xcassets */,
+				EBA9651F238B0ABD00312F09 /* Always - Peder B.Helland_1080p_ybmate.com.mp4 */,
 				DE3ED3381E39DD33007601CB /* LaunchScreen.storyboard */,
 				DE3ED33B1E39DD33007601CB /* Info.plist */,
 				DE3ED3501E39E567007601CB /* Song */,

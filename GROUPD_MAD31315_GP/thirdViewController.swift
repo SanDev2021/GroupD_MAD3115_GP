@@ -17,7 +17,7 @@ class ThirdViewController: UIViewController{
       //FUNCTION FOR PLAYING THE VIDEO
     @IBAction func VideoButtonPressed(_ sender: UIButton)
     {
-    var fileURL = NSURL(fileURLWithPath:"/Users/macstudent/Documents/GroupD_MAD3115_GP/cat.mp4")
+    var fileURL = NSURL(fileURLWithPath:"/Users/owner/Desktop/final project/Always - Peder B.Helland_1080p_ybmate.com.mp4")
         playerview = AVPlayer(url: fileURL as URL)
 
     PlayerViewController.player = playerview
