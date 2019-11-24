@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9B1797C62385EDC40008764C /* catPic.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B1797C42385EDC40008764C /* catPic.png */; };
-		9B1797C72385EDC40008764C /* cat.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9B1797C52385EDC40008764C /* cat.mp4 */; };
 		9B647DD52385C477004BD39E /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B647DD42385C477004BD39E /* thirdViewController.swift */; };
 		DE3ED32E1E39DD33007601CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3ED32D1E39DD33007601CB /* AppDelegate.swift */; };
 		DE3ED3301E39DD33007601CB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3ED32F1E39DD33007601CB /* FirstViewController.swift */; };
@@ -16,18 +14,27 @@
 		DE3ED3351E39DD33007601CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE3ED3331E39DD33007601CB /* Main.storyboard */; };
 		DE3ED3371E39DD33007601CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE3ED3361E39DD33007601CB /* Assets.xcassets */; };
 		DE3ED33A1E39DD33007601CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE3ED3381E39DD33007601CB /* LaunchScreen.storyboard */; };
-		DE3ED3591E39E567007601CB /* Find My Way Home.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DE3ED3521E39E567007601CB /* Find My Way Home.mp3 */; };
-		DE3ED35A1E39E567007601CB /* Fingers.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DE3ED3531E39E567007601CB /* Fingers.mp3 */; };
-		DE3ED35B1E39E567007601CB /* In Case You Forgot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DE3ED3541E39E567007601CB /* In Case You Forgot.mp3 */; };
-		DE3ED35C1E39E567007601CB /* Mighty Fine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DE3ED3551E39E567007601CB /* Mighty Fine.mp3 */; };
-		DE3ED35D1E39E567007601CB /* Otis McMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DE3ED3561E39E567007601CB /* Otis McMusic.mp3 */; };
 		DE3ED35E1E39E567007601CB /* Scarlet Fire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DE3ED3571E39E567007601CB /* Scarlet Fire.mp3 */; };
-		EB1808432384D4EC0029BA47 /* musiclogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB1808422384D4EC0029BA47 /* musiclogo.jpg */; };
+		EBA9650E238B06DE00312F09 /* frozen-hope.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EBA964FD238B06DD00312F09 /* frozen-hope.mp3 */; };
+		EBA9650F238B06DE00312F09 /* did-you-hear-it-from-echoes-of-wonder-2015.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EBA964FE238B06DD00312F09 /* did-you-hear-it-from-echoes-of-wonder-2015.mp3 */; };
+		EBA96510238B06DE00312F09 /* be-still-my-soul-from-in-prayer-2017.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EBA964FF238B06DD00312F09 /* be-still-my-soul-from-in-prayer-2017.mp3 */; };
+		EBA96511238B06DE00312F09 /* even-the-wind-and-the-waves-obey-him-from-through-the-mist-2014.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EBA96500238B06DD00312F09 /* even-the-wind-and-the-waves-obey-him-from-through-the-mist-2014.mp3 */; };
+		EBA96512238B06DE00312F09 /* i-want-the-wind-to-carry-me-acoustic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EBA96501238B06DD00312F09 /* i-want-the-wind-to-carry-me-acoustic.mp3 */; };
+		EBA96513238B06DE00312F09 /* embers-feat-narrow-skies-from-meditations-vol-3-2018.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EBA96502238B06DD00312F09 /* embers-feat-narrow-skies-from-meditations-vol-3-2018.mp3 */; };
+		EBA96514238B06DE00312F09 /* particles.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EBA96503238B06DD00312F09 /* particles.mp3 */; };
+		EBA96515238B06DE00312F09 /* o-come-let-us-adore-him-from-waiting-for-the-dawn-2016.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EBA96504238B06DD00312F09 /* o-come-let-us-adore-him-from-waiting-for-the-dawn-2016.mp3 */; };
+		EBA96516238B06DE00312F09 /* Song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EBA96505238B06DD00312F09 /* Song.mp3 */; };
+		EBA96517238B06DE00312F09 /* winters-past-acoustic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EBA96506238B06DD00312F09 /* winters-past-acoustic.mp3 */; };
+		EBA96518238B06DE00312F09 /* i-need-thee-every-hour-from-lent-vol-1-2018.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EBA96507238B06DD00312F09 /* i-need-thee-every-hour-from-lent-vol-1-2018.mp3 */; };
+		EBA96519238B06DE00312F09 /* dawn-from-echoes-of-wonder-2015.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EBA96508238B06DD00312F09 /* dawn-from-echoes-of-wonder-2015.mp3 */; };
+		EBA9651A238B06DE00312F09 /* ill-wait-from-journeys-2013.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EBA96509238B06DD00312F09 /* ill-wait-from-journeys-2013.mp3 */; };
+		EBA9651B238B06DE00312F09 /* deep-peace-from-beyond-here-2018.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EBA9650A238B06DE00312F09 /* deep-peace-from-beyond-here-2018.mp3 */; };
+		EBA9651C238B06DE00312F09 /* beyond-here-from-beyond-here-2018.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EBA9650B238B06DE00312F09 /* beyond-here-from-beyond-here-2018.mp3 */; };
+		EBA9651D238B06DE00312F09 /* into-silence.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EBA9650C238B06DE00312F09 /* into-silence.mp3 */; };
+		EBA9651E238B06DE00312F09 /* a-memory-remains-acoustic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EBA9650D238B06DE00312F09 /* a-memory-remains-acoustic.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9B1797C42385EDC40008764C /* catPic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = catPic.png; sourceTree = SOURCE_ROOT; };
-		9B1797C52385EDC40008764C /* cat.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cat.mp4; sourceTree = SOURCE_ROOT; };
 		9B647DD42385C477004BD39E /* thirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdViewController.swift; sourceTree = "<group>"; };
 		DE3ED32A1E39DD33007601CB /* GROUPD_MAD31315_GP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GROUPD_MAD31315_GP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE3ED32D1E39DD33007601CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -37,13 +44,24 @@
 		DE3ED3361E39DD33007601CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE3ED3391E39DD33007601CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE3ED33B1E39DD33007601CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DE3ED3521E39E567007601CB /* Find My Way Home.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Find My Way Home.mp3"; sourceTree = "<group>"; };
-		DE3ED3531E39E567007601CB /* Fingers.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Fingers.mp3; sourceTree = "<group>"; };
-		DE3ED3541E39E567007601CB /* In Case You Forgot.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "In Case You Forgot.mp3"; sourceTree = "<group>"; };
-		DE3ED3551E39E567007601CB /* Mighty Fine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mighty Fine.mp3"; sourceTree = "<group>"; };
-		DE3ED3561E39E567007601CB /* Otis McMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Otis McMusic.mp3"; sourceTree = "<group>"; };
 		DE3ED3571E39E567007601CB /* Scarlet Fire.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Scarlet Fire.mp3"; sourceTree = "<group>"; };
-		EB1808422384D4EC0029BA47 /* musiclogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = musiclogo.jpg; sourceTree = SOURCE_ROOT; };
+		EBA964FD238B06DD00312F09 /* frozen-hope.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "frozen-hope.mp3"; path = "../../../final project/frozen-hope.mp3"; sourceTree = "<group>"; };
+		EBA964FE238B06DD00312F09 /* did-you-hear-it-from-echoes-of-wonder-2015.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "did-you-hear-it-from-echoes-of-wonder-2015.mp3"; path = "../../../final project/did-you-hear-it-from-echoes-of-wonder-2015.mp3"; sourceTree = "<group>"; };
+		EBA964FF238B06DD00312F09 /* be-still-my-soul-from-in-prayer-2017.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "be-still-my-soul-from-in-prayer-2017.mp3"; path = "../../../final project/be-still-my-soul-from-in-prayer-2017.mp3"; sourceTree = "<group>"; };
+		EBA96500238B06DD00312F09 /* even-the-wind-and-the-waves-obey-him-from-through-the-mist-2014.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "even-the-wind-and-the-waves-obey-him-from-through-the-mist-2014.mp3"; path = "../../../final project/even-the-wind-and-the-waves-obey-him-from-through-the-mist-2014.mp3"; sourceTree = "<group>"; };
+		EBA96501238B06DD00312F09 /* i-want-the-wind-to-carry-me-acoustic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "i-want-the-wind-to-carry-me-acoustic.mp3"; path = "../../../final project/i-want-the-wind-to-carry-me-acoustic.mp3"; sourceTree = "<group>"; };
+		EBA96502238B06DD00312F09 /* embers-feat-narrow-skies-from-meditations-vol-3-2018.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "embers-feat-narrow-skies-from-meditations-vol-3-2018.mp3"; path = "../../../final project/embers-feat-narrow-skies-from-meditations-vol-3-2018.mp3"; sourceTree = "<group>"; };
+		EBA96503238B06DD00312F09 /* particles.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = particles.mp3; path = "../../../final project/particles.mp3"; sourceTree = "<group>"; };
+		EBA96504238B06DD00312F09 /* o-come-let-us-adore-him-from-waiting-for-the-dawn-2016.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "o-come-let-us-adore-him-from-waiting-for-the-dawn-2016.mp3"; path = "../../../final project/o-come-let-us-adore-him-from-waiting-for-the-dawn-2016.mp3"; sourceTree = "<group>"; };
+		EBA96505238B06DD00312F09 /* Song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Song.mp3; path = "../../../final project/Song.mp3"; sourceTree = "<group>"; };
+		EBA96506238B06DD00312F09 /* winters-past-acoustic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "winters-past-acoustic.mp3"; path = "../../../final project/winters-past-acoustic.mp3"; sourceTree = "<group>"; };
+		EBA96507238B06DD00312F09 /* i-need-thee-every-hour-from-lent-vol-1-2018.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "i-need-thee-every-hour-from-lent-vol-1-2018.mp3"; path = "../../../final project/i-need-thee-every-hour-from-lent-vol-1-2018.mp3"; sourceTree = "<group>"; };
+		EBA96508238B06DD00312F09 /* dawn-from-echoes-of-wonder-2015.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "dawn-from-echoes-of-wonder-2015.mp3"; path = "../../../final project/dawn-from-echoes-of-wonder-2015.mp3"; sourceTree = "<group>"; };
+		EBA96509238B06DD00312F09 /* ill-wait-from-journeys-2013.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "ill-wait-from-journeys-2013.mp3"; path = "../../../final project/ill-wait-from-journeys-2013.mp3"; sourceTree = "<group>"; };
+		EBA9650A238B06DE00312F09 /* deep-peace-from-beyond-here-2018.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "deep-peace-from-beyond-here-2018.mp3"; path = "../../../final project/deep-peace-from-beyond-here-2018.mp3"; sourceTree = "<group>"; };
+		EBA9650B238B06DE00312F09 /* beyond-here-from-beyond-here-2018.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "beyond-here-from-beyond-here-2018.mp3"; path = "../../../final project/beyond-here-from-beyond-here-2018.mp3"; sourceTree = "<group>"; };
+		EBA9650C238B06DE00312F09 /* into-silence.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "into-silence.mp3"; path = "../../../final project/into-silence.mp3"; sourceTree = "<group>"; };
+		EBA9650D238B06DE00312F09 /* a-memory-remains-acoustic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "a-memory-remains-acoustic.mp3"; path = "../../../final project/a-memory-remains-acoustic.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +99,7 @@
 				DE3ED3311E39DD33007601CB /* SecondViewController.swift */,
 				DE3ED3331E39DD33007601CB /* Main.storyboard */,
 				9B647DD42385C477004BD39E /* thirdViewController.swift */,
-				9B1797C52385EDC40008764C /* cat.mp4 */,
-				9B1797C42385EDC40008764C /* catPic.png */,
 				DE3ED3361E39DD33007601CB /* Assets.xcassets */,
-				EB1808422384D4EC0029BA47 /* musiclogo.jpg */,
 				DE3ED3381E39DD33007601CB /* LaunchScreen.storyboard */,
 				DE3ED33B1E39DD33007601CB /* Info.plist */,
 				DE3ED3501E39E567007601CB /* Song */,
@@ -95,12 +110,24 @@
 		DE3ED3501E39E567007601CB /* Song */ = {
 			isa = PBXGroup;
 			children = (
-				DE3ED3521E39E567007601CB /* Find My Way Home.mp3 */,
-				DE3ED3531E39E567007601CB /* Fingers.mp3 */,
-				DE3ED3541E39E567007601CB /* In Case You Forgot.mp3 */,
-				DE3ED3551E39E567007601CB /* Mighty Fine.mp3 */,
-				DE3ED3561E39E567007601CB /* Otis McMusic.mp3 */,
 				DE3ED3571E39E567007601CB /* Scarlet Fire.mp3 */,
+				EBA9650D238B06DE00312F09 /* a-memory-remains-acoustic.mp3 */,
+				EBA964FF238B06DD00312F09 /* be-still-my-soul-from-in-prayer-2017.mp3 */,
+				EBA9650B238B06DE00312F09 /* beyond-here-from-beyond-here-2018.mp3 */,
+				EBA96508238B06DD00312F09 /* dawn-from-echoes-of-wonder-2015.mp3 */,
+				EBA9650A238B06DE00312F09 /* deep-peace-from-beyond-here-2018.mp3 */,
+				EBA964FE238B06DD00312F09 /* did-you-hear-it-from-echoes-of-wonder-2015.mp3 */,
+				EBA96502238B06DD00312F09 /* embers-feat-narrow-skies-from-meditations-vol-3-2018.mp3 */,
+				EBA96500238B06DD00312F09 /* even-the-wind-and-the-waves-obey-him-from-through-the-mist-2014.mp3 */,
+				EBA964FD238B06DD00312F09 /* frozen-hope.mp3 */,
+				EBA96507238B06DD00312F09 /* i-need-thee-every-hour-from-lent-vol-1-2018.mp3 */,
+				EBA96501238B06DD00312F09 /* i-want-the-wind-to-carry-me-acoustic.mp3 */,
+				EBA96509238B06DD00312F09 /* ill-wait-from-journeys-2013.mp3 */,
+				EBA9650C238B06DE00312F09 /* into-silence.mp3 */,
+				EBA96504238B06DD00312F09 /* o-come-let-us-adore-him-from-waiting-for-the-dawn-2016.mp3 */,
+				EBA96503238B06DD00312F09 /* particles.mp3 */,
+				EBA96505238B06DD00312F09 /* Song.mp3 */,
+				EBA96506238B06DD00312F09 /* winters-past-acoustic.mp3 */,
 			);
 			path = Song;
 			sourceTree = "<group>";
@@ -167,18 +194,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBA96517238B06DE00312F09 /* winters-past-acoustic.mp3 in Resources */,
+				EBA9650F238B06DE00312F09 /* did-you-hear-it-from-echoes-of-wonder-2015.mp3 in Resources */,
 				DE3ED35E1E39E567007601CB /* Scarlet Fire.mp3 in Resources */,
+				EBA9651C238B06DE00312F09 /* beyond-here-from-beyond-here-2018.mp3 in Resources */,
+				EBA96515238B06DE00312F09 /* o-come-let-us-adore-him-from-waiting-for-the-dawn-2016.mp3 in Resources */,
 				DE3ED33A1E39DD33007601CB /* LaunchScreen.storyboard in Resources */,
-				DE3ED35D1E39E567007601CB /* Otis McMusic.mp3 in Resources */,
-				DE3ED35C1E39E567007601CB /* Mighty Fine.mp3 in Resources */,
-				EB1808432384D4EC0029BA47 /* musiclogo.jpg in Resources */,
-				DE3ED35B1E39E567007601CB /* In Case You Forgot.mp3 in Resources */,
-				9B1797C72385EDC40008764C /* cat.mp4 in Resources */,
-				DE3ED3591E39E567007601CB /* Find My Way Home.mp3 in Resources */,
-				9B1797C62385EDC40008764C /* catPic.png in Resources */,
-				DE3ED35A1E39E567007601CB /* Fingers.mp3 in Resources */,
+				EBA9651B238B06DE00312F09 /* deep-peace-from-beyond-here-2018.mp3 in Resources */,
+				EBA96516238B06DE00312F09 /* Song.mp3 in Resources */,
 				DE3ED3371E39DD33007601CB /* Assets.xcassets in Resources */,
+				EBA9651E238B06DE00312F09 /* a-memory-remains-acoustic.mp3 in Resources */,
+				EBA96513238B06DE00312F09 /* embers-feat-narrow-skies-from-meditations-vol-3-2018.mp3 in Resources */,
 				DE3ED3351E39DD33007601CB /* Main.storyboard in Resources */,
+				EBA96512238B06DE00312F09 /* i-want-the-wind-to-carry-me-acoustic.mp3 in Resources */,
+				EBA9651D238B06DE00312F09 /* into-silence.mp3 in Resources */,
+				EBA96510238B06DE00312F09 /* be-still-my-soul-from-in-prayer-2017.mp3 in Resources */,
+				EBA96519238B06DE00312F09 /* dawn-from-echoes-of-wonder-2015.mp3 in Resources */,
+				EBA9650E238B06DE00312F09 /* frozen-hope.mp3 in Resources */,
+				EBA9651A238B06DE00312F09 /* ill-wait-from-journeys-2013.mp3 in Resources */,
+				EBA96511238B06DE00312F09 /* even-the-wind-and-the-waves-obey-him-from-through-the-mist-2014.mp3 in Resources */,
+				EBA96514238B06DE00312F09 /* particles.mp3 in Resources */,
+				EBA96518238B06DE00312F09 /* i-need-thee-every-hour-from-lent-vol-1-2018.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

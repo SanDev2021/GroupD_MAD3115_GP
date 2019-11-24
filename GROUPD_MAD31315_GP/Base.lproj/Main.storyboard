@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="fqC-MF-o3i">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="fqC-MF-o3i">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -19,8 +21,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="L5b-wY-AtN">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="L5b-wY-AtN">
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.1215686277" green="0.1294117719" blue="0.1411764771" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="sectionIndexColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
@@ -31,7 +34,7 @@
                                         <rect key="frame" x="0.0" y="28" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jdN-WT-C12" id="4hH-79-jj4">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" name="windowFrameTextColor" catalog="System" colorSpace="catalog"/>
@@ -45,22 +48,16 @@
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstAttribute="trailing" secondItem="L5b-wY-AtN" secondAttribute="trailing" id="CSl-Ud-lDg"/>
-                            <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="L5b-wY-AtN" secondAttribute="bottom" id="OGJ-UI-kEV"/>
-                            <constraint firstItem="L5b-wY-AtN" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" id="l4U-rr-mwr"/>
-                            <constraint firstItem="L5b-wY-AtN" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" id="rdc-Xz-4Nh"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Serene Music PlayList" largeTitleDisplayMode="always" id="3X6-0o-bWc">
-                        <barButtonItem key="leftBarButtonItem" title="Item" image="video.fill" catalog="system" id="tIB-pb-Gt4">
-                            <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="video.fill" id="tIB-pb-Gt4">
+                            <color key="tintColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
                                 <segue destination="0Gg-xi-IAt" kind="show" id="4XR-bQ-pI6"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="Player" image="airplayaudio" catalog="system" id="M6q-1L-mB4">
-                            <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <barButtonItem key="rightBarButtonItem" title="Player" image="airplayaudio" id="M6q-1L-mB4">
+                            <color key="tintColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
                                 <segue destination="8rJ-Kc-sve" kind="show" id="1gS-Em-6k3"/>
                             </connections>
@@ -93,16 +90,16 @@
                                 <color key="textColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="musiclogo.jpg" highlightedImage="musiclogo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="I63-NE-eBk">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="musiclogo" highlightedImage="musiclogo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="I63-NE-eBk">
                                 <rect key="frame" x="36" y="155" width="343" height="343"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7HO-5Y-j22">
-                                <rect key="frame" x="69" y="479" width="120" height="83"/>
+                                <rect key="frame" x="69" y="479" width="120" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <state key="normal" backgroundImage="playbutton1">
+                                <state key="normal" backgroundImage="play">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -110,7 +107,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U8L-6K-76l">
-                                <rect key="frame" x="233" y="481" width="120" height="84"/>
+                                <rect key="frame" x="233" y="479" width="120" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <state key="normal" backgroundImage="pause">
@@ -121,10 +118,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6wm-Qe-9iP">
-                                <rect key="frame" x="76" y="573" width="113" height="68"/>
+                                <rect key="frame" x="69" y="573" width="120" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <state key="normal" title="PREV" backgroundImage="previous1">
+                                <state key="normal" backgroundImage="prev">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -168,10 +165,10 @@
                                 <color key="shadowColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qbp-qf-3Mp">
-                                <rect key="frame" x="242" y="571" width="111" height="76"/>
+                                <rect key="frame" x="242" y="571" width="111" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <state key="normal" title="NEXT" backgroundImage="next">
+                                <state key="normal" backgroundImage="next">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" red="1" green="0.30984958569999999" blue="0.35442647220000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -189,7 +186,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2481" y="-321"/>
+            <point key="canvasLocation" x="2479.7101449275365" y="-321.42857142857139"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="2ak-hP-oXy">
@@ -207,7 +204,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZIv-KT-mtq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="914" y="-325"/>
+            <point key="canvasLocation" x="903" y="-321"/>
         </scene>
         <!--Third View Controller-->
         <scene sceneID="Ynl-sv-Bjj">
@@ -221,22 +218,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3EL-Rx-rhG">
-                                <rect key="frame" x="86" y="549" width="242" height="48"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VIDEOPIC" translatesAutoresizingMaskIntoConstraints="NO" id="MPn-Ws-7Eu">
+                                <rect key="frame" x="0.0" y="150" width="414" height="391"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3EL-Rx-rhG">
+                                <rect key="frame" x="124" y="540" width="167" height="114"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="33"/>
-                                <state key="normal" title="Press For Video">
+                                <state key="normal" backgroundImage="playvideo">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="VideoButtonPressed:" destination="0Gg-xi-IAt" eventType="touchUpInside" id="Wgp-Oc-0HS"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="catPic.png" translatesAutoresizingMaskIntoConstraints="NO" id="MPn-Ws-7Eu">
-                                <rect key="frame" x="50" y="150" width="315" height="391"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
@@ -248,13 +245,15 @@
         </scene>
     </scenes>
     <resources>
-        <image name="airplayaudio" catalog="system" width="64" height="60"/>
-        <image name="catPic.png" width="1178" height="663"/>
+        <image name="VIDEOPIC" width="1272" height="728"/>
+        <image name="airplayaudio" width="64" height="60"/>
+        <image name="musiclogo" width="1536" height="1152"/>
         <image name="musiclogo.jpg" width="368.6400146484375" height="276.48001098632812"/>
-        <image name="next" width="256" height="256"/>
-        <image name="pause" width="512" height="512"/>
-        <image name="playbutton1" width="512" height="512"/>
-        <image name="previous1" width="256" height="256"/>
-        <image name="video.fill" catalog="system" width="64" height="40"/>
+        <image name="next" width="178" height="168"/>
+        <image name="pause" width="192" height="182"/>
+        <image name="play" width="189" height="188"/>
+        <image name="playvideo" width="221" height="224"/>
+        <image name="prev" width="187" height="172"/>
+        <image name="video.fill" width="64" height="40"/>
     </resources>
 </document>

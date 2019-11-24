@@ -7,8 +7,8 @@
 //
 import UIKit
 import AVFoundation
-
 var audioPlayer = AVAudioPlayer()
+// an array to hold the songlist
 var songs:[String] = []
 var thisSong = 0
 var audioStuffed = false
@@ -28,7 +28,7 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
         cell.textLabel?.text = songs[indexPath.row]
         return cell
     }
-    
+    //function to play the song when select the cell at row
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
     {
         do
@@ -44,21 +44,16 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
             print ("ERROR")
         }
     }
-    
 override func viewDidLoad()
     {
         super.viewDidLoad()
         gettingSongNames()
     }
-        
-
     override func didReceiveMemoryWarning()
     {
         super.didReceiveMemoryWarning()
     }
-    
-    
-    //FUNCTION THAT GETS THE NAME OF THE SONGS
+    //FUNCTION THAT GETS THE NAME OF THE SONG PATH FROM THE SONG FOLDER
     func gettingSongNames()
     {
         let folderURL = URL(fileURLWithPath:Bundle.main.resourcePath!)
@@ -80,9 +75,7 @@ override func viewDidLoad()
                     mySong = mySong.replacingOccurrences(of: ".mp3", with: "")
                     songs.append(mySong)
                 }
-                
-            }
-            
+                }
             myTableView.reloadData()
         }
         catch

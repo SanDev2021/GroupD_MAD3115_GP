@@ -57,7 +57,7 @@ class SecondViewController: UIViewController {
         }
     }
 
-// function for slider
+// function for VLOUME slider
     @IBAction func slider(_ sender: UISlider)
     {
         if audioStuffed == true
@@ -79,14 +79,11 @@ class SecondViewController: UIViewController {
             print ("ERROR")
         }
     }
-    
     override func viewDidLoad() {
-        
         super.viewDidLoad()
         label.text = songs[thisSong]
     }
-
-    override func didReceiveMemoryWarning() {
+override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
